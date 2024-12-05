@@ -109,7 +109,7 @@ The goal of this free API is to enrich the Free Fire community by offering acces
 }
 
 ```
-#😵 Error Responses
+# 😵 Error Responses
 API may return error responses for inaccurate requests.
 
 **Error Codes and Solutions:**
