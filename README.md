@@ -1,7 +1,7 @@
 # 📝 API Documentation
 
 ##  Account Information API
-API Route = https://cdn.ohxia.xyz/{region}/{playerid}?key={key}
+API Route = https://ffinfo.ohxia.xyz/api/{region}/{playerid}?key={key}
 
 **Endpoint:** `api/`
 **key:** `@leakstudio`
@@ -11,7 +11,7 @@ This Endpoint Retrieves Account Information based on the Specified Region and Us
 
 ### 📨 Request Example
 ```http
-GET https://cdn.ohxia.xyz/bd/663660642?key=XiaoNayem6811
+GET https://ffinfo.ohxia.xyz/api/bd/12345678?key=@leakstudio
 ```
 
 ### ☑️ Query Parameters
@@ -23,9 +23,9 @@ GET https://cdn.ohxia.xyz/bd/663660642?key=XiaoNayem6811
 | `key`     | string | Yes      | Join https://t.me/leakstudio to get Latest Key.                  |
 
 
-📚 **Purpose of the API**  
+📚 **API Purpose**
 
-The primary purpose of providing this free API is to enhance the Free Fire community experience. Garena Free Fire does not offer official account information APIs, so this custom solution aims to fill that gap, providing players and developers with valuable account data
+The goal of this free API is to enrich the Free Fire community by offering access to account data that is not available through official channels. Since Garena Free Fire does not provide an official account information API, this custom solution serves as a valuable resource for players and developers seeking detailed account data.
 
 
 # 📁 Additional Information
