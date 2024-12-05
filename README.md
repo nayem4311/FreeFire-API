@@ -109,22 +109,13 @@ The goal of this free API is to enrich the Free Fire community by offering acces
 }
 
 ```
-# 😵 Error Responses
-API might Show Error Response Upon Users' Inaccurate Requests!
+#😵 Error Responses
+API may return error responses for inaccurate requests.
 
-### Error Instances and Solutions
-
-- **Error Code:** 400
-  - **Message:** Invalid region.
-  - **Solution:** Make sure you are using a valid region code.
-
-- **Error Code:** 429
-  - **Message:** Abnormal Requests Detected. Please Avoid Misusing Info API for Visits or Your IP may get Blocked!
-  - **Solution:** Avoid excessive requests or contact the API provider for assistance.
-
-- **Error Code:** 500
-  - **Message:** An error occurred while processing your request. Please Recheck Your ID & Region.
-  - **Solution:** Double-check the provided user ID and region, and retry the request. If the issue persists, contact the API provider for support.
+**Error Codes and Solutions:**
+**400 (Invalid region)**: Ensure you are using a valid region code.
+**429 (Excessive requests)**: Reduce request frequency to avoid being blocked. Contact the provider if needed.
+**500 (Request error)**: Verify your user ID and region, then try again. Contact the provider if the issue persists.
 
 ---
 
