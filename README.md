@@ -113,9 +113,9 @@ The goal of this free API is to enrich the Free Fire community by offering acces
 API may return error responses for inaccurate requests.
 
 **Error Codes and Solutions:**
-**400 (Invalid region)**: Ensure you are using a valid region code.
-**429 (Excessive requests)**: Reduce request frequency to avoid being blocked. Contact the provider if needed.
-**500 (Request error)**: Verify your user ID and region, then try again. Contact the provider if the issue persists.
+- **400 (Invalid region)**: Ensure you are using a valid region code.
+- **429 (Excessive requests)**: Reduce request frequency to avoid being blocked. Contact the provider if needed.
+- **500 (Request error)**: Verify your user ID and region, then try again. Contact the provider if the issue persists.
 
 ---
 
