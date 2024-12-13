@@ -87,6 +87,33 @@ The goal of this free API is to enrich the Free Fire community by offering acces
       "GuildName": "LEAKㅤSTUDIO",
       "GuildOwner": 123456789
     },
+   "GuildLeaderInfo": {
+      "AccountAvatarId": "https://cdn.ohxia.xyz/item-icon?itemID=901027035.png",
+      "AccountBPBadges": 46,
+      "AccountBPID": 1001000079,
+      "AccountBannerId": "https://cdn.ohxia.xyz/item-icon?itemID=902027015.png",
+      "AccountCreateTime": "20-01-2019 05:28 PM",
+      "AccountEXP": 3921048,
+      "AccountId": "663660642",
+      "AccountLastLogin": "13-12-2024 08:31 AM",
+      "AccountLevel": 73,
+      "AccountLikes": 34451,
+      "AccountName": "LSㅤNAYEM",
+      "AccountRegion": "BD",
+      "AccountSeasonId": 42,
+      "BrMaxRank": 222,
+      "BrRankPoint": 4906,
+      "CsMaxRank": 207,
+      "CsRankPoint": 23,
+      "EquippedWeapon": [
+        "https://cdn.ohxia.xyz/item-icon?itemID=907104701.png",
+        "https://cdn.ohxia.xyz/item-icon?itemID=912000003.png",
+        "https://cdn.ohxia.xyz/item-icon?itemID=914000002.png"
+      ],
+      "ShowBrRank": true,
+      "ShowCsRank": true,
+      "Title": 904190035
+    },
     "creditScoreInfo": {
       "creditScore": 100
     },
