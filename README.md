@@ -136,6 +136,106 @@ The goal of this free API is to enrich the Free Fire community by offering acces
 }
 
 ```
+
+
+# 🎫 Wishlist Items
+
+**Endpoint:** `api/wishlistitems`
+**key:** `@leakstudio`
+**Method:** `GET`  
+
+### ☑️ Query Parameters
+
+| Parameter | Type   | Required | Description                   |
+|-----------|--------|----------|-------------------------------|
+| `region`  | string | Yes      | The region code (`sg`, `bd`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`).|
+| `uid`     | int | Yes      | The user ID.                  |
+| `key`     | string | Yes      | Join https://t.me/leakstudio to get Latest Key.                  |
+
+### 📨 Request Example
+```http
+GET https://ffinfo.ohxia.xyz/api/wishlistitems/bd/12345678?key=@leakstudio
+```
+### 💬 Response Example
+```json
+{
+  "WishListItem": [
+    {
+      "ItemID": "203000036",
+      "Date": May 25, 2024, 06:06:06 AM
+    },
+    {
+      "ItemID": "203000207",
+      "Date": May 25, 2024, 06:06:06 AM
+    },
+    {
+      "ItemID": "203000321",
+      "Date": May 25, 2024, 06:06:06 AM
+    },
+    {
+      "ItemID": "203000431",
+      "Date": May 25, 2024, 06:06:06 AM
+    },
+    {
+      "ItemID": "203000744",
+      "Date": May 25, 2024, 06:06:06 AM
+    },
+    {
+      "ItemID": "203038056",
+      "Date": May 25, 2024, 06:06:06 AM
+    },
+    {
+      "ItemID": "203038057",
+      "Date": May 25, 2024, 06:06:06 AM
+    }
+  ]
+}
+```
+
+
+# 👨‍👨‍👦‍👦 Guild Information
+
+**Endpoint:** `api/guildinfo`
+**key:** `@leakstudio`
+**Method:** `GET`  
+**Description:** Retrieve detailed information about FreeFire guilds by querying this API with the guild's region and ID. Receive data such as guild name, creation date, level, member count, and more in JSON format.
+
+### ☑️ Query Parameters
+
+| Parameter | Type   | Required | Description                   |
+|-----------|--------|----------|-------------------------------|
+| `region`  | string | Yes      | The region code (`sg`, `bd`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`).|
+| `uid`     | int | Yes      | The user ID.                  |
+| `key`     | string | Yes      | Join https://t.me/leakstudio to get Latest Key.                  |
+
+### 📨 Request Example
+```http
+GET https://ffinfo.ohxia.xyz/api/guildinfo/bd/3001867085?key=@leakstudio
+```
+### 💬 Response Example
+```json
+{
+  "GuildInfo": {
+    "GuildActivityPoint": "4277769",
+    "GuildCapacity": 55,
+    "GuildCreateTime": 1601573427,
+    "GuildCurrentMembers": 52,
+    "GuildId": "3001867085",
+    "GuildLeaderUID": "663660642",
+    "GuildLevel": 7,
+    "GuildName": "LEAKㅤSTUDIO",
+    "GuildPastGlory": "3421989",
+    "GuildRegion": "BD",
+    "GuildSlogan": "We Don't Play, We Slay!",
+    "GuildWeeklyActivityPoint": 87472
+  }
+}
+```
+
+
+
+
+
 # 😵 Error Responses
 API may return error responses for inaccurate requests.
 
