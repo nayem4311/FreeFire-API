@@ -139,6 +139,7 @@ The goal of this free API is to enrich the Free Fire community by offering acces
 
 
 # 🎫 Wishlist Items
+API Route = https://ffinfo.ohxia.xyz/api/wishlistitems/{region}/{playerid}?key={key}
 
 **Endpoint:** `api/wishlistitems`
 **key:** `@leakstudio`
@@ -162,31 +163,31 @@ GET https://ffinfo.ohxia.xyz/api/wishlistitems/bd/12345678?key=@leakstudio
   "WishListItem": [
     {
       "ItemID": "203000036",
-      "Date": May 25, 2024, 06:06:06 AM
+      "Date": "May 25, 2024, 06:06:06 AM"
     },
     {
       "ItemID": "203000207",
-      "Date": May 25, 2024, 06:06:06 AM
+      "Date": "May 25, 2024, 06:06:06 AM"
     },
     {
       "ItemID": "203000321",
-      "Date": May 25, 2024, 06:06:06 AM
+      "Date": "May 25, 2024, 06:06:06 AM"
     },
     {
       "ItemID": "203000431",
-      "Date": May 25, 2024, 06:06:06 AM
+      "Date": "May 25, 2024, 06:06:06 AM"
     },
     {
       "ItemID": "203000744",
-      "Date": May 25, 2024, 06:06:06 AM
+      "Date": "May 25, 2024, 06:06:06 AM"
     },
     {
       "ItemID": "203038056",
-      "Date": May 25, 2024, 06:06:06 AM
+      "Date": "May 25, 2024, 06:06:06 AM"
     },
     {
       "ItemID": "203038057",
-      "Date": May 25, 2024, 06:06:06 AM
+      "Date": "May 25, 2024, 06:06:06 AM"
     }
   ]
 }
@@ -194,6 +195,7 @@ GET https://ffinfo.ohxia.xyz/api/wishlistitems/bd/12345678?key=@leakstudio
 
 
 # 👨‍👨‍👦‍👦 Guild Information
+API Route = https://ffinfo.ohxia.xyz/api/guildinfo/{region}/{playerid}?key={key}
 
 **Endpoint:** `api/guildinfo`
 **key:** `@leakstudio`
