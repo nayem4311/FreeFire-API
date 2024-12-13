@@ -163,31 +163,31 @@ GET https://ffinfo.ohxia.xyz/api/wishlistitems/bd/12345678?key=@leakstudio
   "WishListItem": [
     {
       "ItemID": "203000036",
-      "Date": "May 25, 2024, 06:06:06 AM"
+      "Date": "2024-25-05, 11:30 PM"
     },
     {
       "ItemID": "203000207",
-      "Date": "May 25, 2024, 06:06:06 AM"
+      "Date": "2024-25-05, 11:30 PM"
     },
     {
       "ItemID": "203000321",
-      "Date": "May 25, 2024, 06:06:06 AM"
+      "Date": "2024-25-05, 11:30 PM"
     },
     {
       "ItemID": "203000431",
-      "Date": "May 25, 2024, 06:06:06 AM"
+      "Date": "2024-25-05, 11:30 PM"
     },
     {
       "ItemID": "203000744",
-      "Date": "May 25, 2024, 06:06:06 AM"
+      "Date": "2024-25-05, 11:30 PM"
     },
     {
       "ItemID": "203038056",
-      "Date": "May 25, 2024, 06:06:06 AM"
+      "Date": "2024-25-05, 11:30 PM"
     },
     {
       "ItemID": "203038057",
-      "Date": "May 25, 2024, 06:06:06 AM"
+      "Date": "2024-25-05, 11:30 PM"
     }
   ]
 }
@@ -220,7 +220,7 @@ GET https://ffinfo.ohxia.xyz/api/guildinfo/bd/3001867085?key=@leakstudio
   "GuildInfo": {
     "GuildActivityPoint": "4277769",
     "GuildCapacity": 55,
-    "GuildCreateTime": 1601573427,
+    "GuildCreateTime": "2020-10-01 11:30 PM",
     "GuildCurrentMembers": 52,
     "GuildId": "3001867085",
     "GuildLeaderUID": "663660642",
