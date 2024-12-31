@@ -1,9 +1,9 @@
 # 📝 API Documentation
 
 ##  Account Information API
-API Route = https://ffinfo.ohxia.xyz/api/{region}/{playerid}?key={key}
+API Route = https://api-freefire.leakstudio.site/info?uid={uid}&region={region}&key={key}
 
-**Endpoint:** `api/`
+**Endpoint:** `/info`
 **key:** `@leakstudio`
 **Method:** `GET`  
 
@@ -11,14 +11,14 @@ This Endpoint Retrieves Account Information based on the Specified Region and Us
 
 ### 📨 Request Example
 ```http
-GET https://ffinfo.ohxia.xyz/api/bd/12345678?key=@leakstudio
+GET https://api-freefire.leakstudio.site/info?uid=663660642&region=bd&key=@leakstudio
 ```
 
 ### ☑️ Query Parameters
 
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`sg`, `bd`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`).|
+| `region`  | string | Yes      | The region code (`sg`, `bd`, `ind`, `br`,`id`, `tw`, `us`, `na`, `sac`, `th`, `vn`, `me`, `pk`, `cis` ).|
 | `uid`     | int | Yes      | The user ID.                  |
 | `key`     | string | Yes      | Join https://t.me/leakstudio to get Latest Key.                  |
 
@@ -38,103 +38,101 @@ The goal of this free API is to enrich the Free Fire community by offering acces
 ### 💬 Example of a Successful Reponse May Look Like this,
 ```json
 {
-  "data": {
-    "AccountInfo": {
-      "AccountAvatarId": "https://cdn.ohxia.xyz/item-icon?itemID=901027035.png",
-      "AccountBPBadges": 100,
-      "AccountBPID": 1001000079,
-      "AccountBannerId": "https://cdn.ohxia.xyz/item-icon?itemID=902027015.png",
-      "AccountCreateTime": "20-01-2019 05:28 PM",
-      "AccountEXP": 3906521,
-      "AccountId": "123456789",
-      "AccountLastLogin": "05-12-2024 01:57 PM",
-      "AccountLevel": 73,
-      "AccountLikes": 33687,
-      "AccountName": "LSㅤNAYEM",
-      "AccountRegion": "BD",
-      "AccountSeasonId": 42,
-      "AccountType": 1,
-      "BrMaxRank": 221,
-      "BrRankPoint": 4244,
-      "CsMaxRank": 206,
-      "CsRankPoint": 19,
-      "EquippedWeapon": [
-        "https://cdn.ohxia.xyz/item-icon?itemID=907192407.png",
-        "https://cdn.ohxia.xyz/item-icon?itemID=912000003.png",
-        "https://cdn.ohxia.xyz/item-icon?itemID=914000002.png"
-      ],
-      "ReleaseVersion": "OB47",
-      "ShowBrRank": true,
-      "ShowCsRank": true,
-      "Title": 904190035
-    },
-    "AccountProfileInfo": {
-      "EquippedOutfit": [
-        "https://cdn.ohxia.xyz/item-icon?itemID=214034012.png",
-        "https://cdn.ohxia.xyz/item-icon?itemID=205034046.png",
-        "https://cdn.ohxia.xyz/item-icon?itemID=211033021.png",
-        "https://cdn.ohxia.xyz/item-icon?itemID=204000882.png",
-        "https://cdn.ohxia.xyz/item-icon?itemID=211000168.png",
-        "https://cdn.ohxia.xyz/item-icon?itemID=203000182.png"
-      ],
-      "EquippedSkills": [16, 706, 8, 1, 16, 2405, 8, 2, 16, 606, 8, 3, 16, 3406]
-    },
-    "GuildInfo": {
-      "GuildCapacity": 55,
-      "GuildID": "3001867085",
-      "GuildLevel": 7,
-      "GuildMember": 52,
-      "GuildName": "LEAKㅤSTUDIO",
-      "GuildOwner": 123456789
-    },
-   "GuildLeaderInfo": {
-      "AccountAvatarId": "https://cdn.ohxia.xyz/item-icon?itemID=901027035.png",
-      "AccountBPBadges": 46,
-      "AccountBPID": 1001000079,
-      "AccountBannerId": "https://cdn.ohxia.xyz/item-icon?itemID=902027015.png",
-      "AccountCreateTime": "20-01-2019 05:28 PM",
-      "AccountEXP": 3921048,
-      "AccountId": "663660642",
-      "AccountLastLogin": "13-12-2024 08:31 AM",
-      "AccountLevel": 73,
-      "AccountLikes": 34451,
-      "AccountName": "LSㅤNAYEM",
-      "AccountRegion": "BD",
-      "AccountSeasonId": 42,
-      "BrMaxRank": 222,
-      "BrRankPoint": 4906,
-      "CsMaxRank": 207,
-      "CsRankPoint": 23,
-      "EquippedWeapon": [
-        "https://cdn.ohxia.xyz/item-icon?itemID=907104701.png",
-        "https://cdn.ohxia.xyz/item-icon?itemID=912000003.png",
-        "https://cdn.ohxia.xyz/item-icon?itemID=914000002.png"
-      ],
-      "ShowBrRank": true,
-      "ShowCsRank": true,
-      "Title": 904190035
-    },
-    "creditScoreInfo": {
-      "creditScore": 100
-    },
-    "petInfo": {
-      "exp": 6005,
-      "id": "https://cdn.ohxia.xyz/item-icon?itemID=1300000071.png",
-      "isMarkedStar": true,
-      "isSelected": true,
-      "level": 7,
-      "name": "Poring",
-      "selectedSkillId": "https://cdn.ohxia.xyz/item-icon?itemID=1315000006.png",
-      "skinId": "https://cdn.ohxia.xyz/item-icon?itemID=1310000074.png"
-    },
-    "socialinfo": {
-      "AccountLanguage": "Language_3",
-      "AccountPreferMode": "Prefermode_BR",
-      "AccountSignature": "GM - Leak Studio Server"
-    }
+  "AccountInfo": {
+    "AccountAvatarId": "https://dl-dir.leakstudio.site/icons/901027035.png",
+    "AccountBPBadges": 91,
+    "AccountBPID": 1001000079,
+    "AccountBannerId": "https://dl-dir.leakstudio.site/icons/902027015.png",
+    "AccountCreateTime": "20/01/2019 (11:28:45 AM)",
+    "AccountEXP": 3939946,
+    "AccountId": "663660642",
+    "AccountLastLogin": "29/12/2024 (04:42:30 PM)",
+    "AccountLevel": 73,
+    "AccountLikes": 36129,
+    "AccountName": "LSㅤNAYEM",
+    "AccountRegion": "BD",
+    "AccountSeasonId": 42,
+    "AccountType": 1,
+    "BrMaxRank": 223,
+    "BrRankPoint": 5377,
+    "CsMaxRank": 207,
+    "CsRankPoint": 23,
+    "EquippedWeapon": [
+      "https://dl-dir.leakstudio.site/icons/907192407.png",
+      "https://dl-dir.leakstudio.site/icons/912000003.png",
+      "https://dl-dir.leakstudio.site/icons/914000002.png"
+    ],
+    "ReleaseVersion": "OB47",
+    "ShowBrRank": true,
+    "ShowCsRank": true,
+    "Title": 904190035
+  },
+  "AccountProfileInfo": {
+    "EquippedOutfit": [
+      "https://dl-dir.leakstudio.site/icons/203035056.png",
+      "https://dl-dir.leakstudio.site/icons/211033074.png",
+      "https://dl-dir.leakstudio.site/icons/203033060.png",
+      "https://dl-dir.leakstudio.site/icons/214033014.png",
+      "https://dl-dir.leakstudio.site/icons/205033050.png",
+      "https://dl-dir.leakstudio.site/icons/211033045.png",
+      "https://dl-dir.leakstudio.site/icons/204033046.png"
+    ],
+    "EquippedSkills": [16, 706, 8, 1, 16, 1806, 8, 2, 16, 606, 8, 3, 16, 3406]
+  },
+  "GuildInfo": {
+    "GuildCapacity": 55,
+    "GuildID": "3001867085",
+    "GuildLevel": 7,
+    "GuildMember": 47,
+    "GuildName": "LEAKㅤSTUDIO",
+    "GuildOwner": 663660642
+  },
+  "GuildLeaderInfo": {
+    "AccountAvatarId": "https://dl-dir.leakstudio.site/icons/901027035.png",
+    "AccountBPBadges": 91,
+    "AccountBPID": 1001000079,
+    "AccountBannerId": "https://dl-dir.leakstudio.site/icons/902027015.png",
+    "AccountCreateTime": "20/01/2019 (11:28:45 AM)",
+    "AccountEXP": 3939946,
+    "AccountId": "663660642",
+    "AccountLastLogin": "29/12/2024 (04:42:30 PM)",
+    "AccountLevel": 73,
+    "AccountLikes": 36129,
+    "AccountName": "LSㅤNAYEM",
+    "AccountRegion": "BD",
+    "AccountSeasonId": 42,
+    "BrMaxRank": 223,
+    "BrRankPoint": 5377,
+    "CsMaxRank": 207,
+    "CsRankPoint": 23,
+    "EquippedWeapon": [
+      "https://dl-dir.leakstudio.site/icons/907192407.png",
+      "https://dl-dir.leakstudio.site/icons/912000003.png",
+      "https://dl-dir.leakstudio.site/icons/914000002.png"
+    ],
+    "ShowBrRank": true,
+    "ShowCsRank": true,
+    "Title": 904190035
+  },
+  "creditScoreInfo": {
+    "CreditScore": 100
+  },
+  "petInfo": {
+    "id": "https://dl-dir.leakstudio.site/icons/1300000071.png",
+    "isMarkedStar": true,
+    "isSelected": true,
+    "level": 7,
+    "name": "Sarawat",
+    "selectedSkillId": "https://dl-dir.leakstudio.site/icons/1315000006.png",
+    "skinId": "https://dl-dir.leakstudio.site/icons/1310000074.png",
+    "xp": 6005
+  },
+  "socialinfo": {
+    "AccountLanguage": "Language_3",
+    "AccountPreferMode": "Prefermode_BR",
+    "AccountSignature": "GM - FreeFire Debug Server"
   }
 }
-
 ```
 
 
