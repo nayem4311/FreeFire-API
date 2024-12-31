@@ -39,98 +39,98 @@ The goal of this free API is to enrich the Free Fire community by offering acces
 ```json
 {
   "AccountInfo": {
-    "AccountAvatarId": "https://dl-dir.leakstudio.site/icons/901027035.png",
-    "AccountBPBadges": 91,
+    "AccountAvatarId": "https://dl-dir.leakstudio.site/icons/901045005.png",
+    "AccountBPBadges": 104,
     "AccountBPID": 1001000079,
-    "AccountBannerId": "https://dl-dir.leakstudio.site/icons/902027015.png",
-    "AccountCreateTime": "20/01/2019 (11:28:45 AM)",
-    "AccountEXP": 3939946,
-    "AccountId": "663660642",
-    "AccountLastLogin": "29/12/2024 (04:42:30 PM)",
-    "AccountLevel": 73,
-    "AccountLikes": 36129,
-    "AccountName": "LSㅤNAYEM",
-    "AccountRegion": "BD",
+    "AccountBannerId": "https://dl-dir.leakstudio.site/icons/902000154.png",
+    "AccountCreateTime": "06/12/2017 (09:19:29 PM)",
+    "AccountEXP": 1957062,
+    "AccountId": "12345678",
+    "AccountLastLogin": "30/12/2024 (02:57:37 PM)",
+    "AccountLevel": 66,
+    "AccountLikes": 3402716,
+    "AccountName": "FB:ㅤ@GMRemyX",
+    "AccountRegion": "SG",
     "AccountSeasonId": 42,
     "AccountType": 1,
-    "BrMaxRank": 223,
-    "BrRankPoint": 5377,
-    "CsMaxRank": 207,
-    "CsRankPoint": 23,
+    "BrMaxRank": 212,
+    "BrRankPoint": 2323,
+    "CsMaxRank": 219,
+    "CsRankPoint": 88,
     "EquippedWeapon": [
-      "https://dl-dir.leakstudio.site/icons/907192407.png",
-      "https://dl-dir.leakstudio.site/icons/912000003.png",
-      "https://dl-dir.leakstudio.site/icons/914000002.png"
+      "https://dl-dir.leakstudio.site/icons/907103421.png",
+      "https://dl-dir.leakstudio.site/icons/912041002.png",
+      "https://dl-dir.leakstudio.site/icons/914047002.png"
     ],
     "ReleaseVersion": "OB47",
+    "Role": 4,
     "ShowBrRank": true,
     "ShowCsRank": true,
-    "Title": 904190035
+    "Title": 904090023,
+    "hasElitePass": true
   },
   "AccountProfileInfo": {
     "EquippedOutfit": [
-      "https://dl-dir.leakstudio.site/icons/203035056.png",
-      "https://dl-dir.leakstudio.site/icons/211033074.png",
-      "https://dl-dir.leakstudio.site/icons/203033060.png",
-      "https://dl-dir.leakstudio.site/icons/214033014.png",
-      "https://dl-dir.leakstudio.site/icons/205033050.png",
-      "https://dl-dir.leakstudio.site/icons/211033045.png",
-      "https://dl-dir.leakstudio.site/icons/204033046.png"
+      "https://dl-dir.leakstudio.site/icons/205000059.png",
+      "https://dl-dir.leakstudio.site/icons/211047009.png",
+      "https://dl-dir.leakstudio.site/icons/211001242.png",
+      "https://dl-dir.leakstudio.site/icons/203047007.png",
+      "https://dl-dir.leakstudio.site/icons/204000884.png",
+      "https://dl-dir.leakstudio.site/icons/214047001.png"
     ],
-    "EquippedSkills": [16, 706, 8, 1, 16, 1806, 8, 2, 16, 606, 8, 3, 16, 3406]
+    "EquippedSkills": [16, 706, 8, 1, 16, 3806, 8, 2, 16, 2506, 8, 3, 16, 1706]
   },
   "GuildInfo": {
     "GuildCapacity": 55,
-    "GuildID": "3001867085",
+    "GuildID": "60893361",
     "GuildLevel": 7,
-    "GuildMember": 47,
-    "GuildName": "LEAKㅤSTUDIO",
-    "GuildOwner": 663660642
+    "GuildMember": 50,
+    "GuildName": "MᴜᴍᴍʏEᴠᴀTᴇᴀᴍ",
+    "GuildOwner": 12345678
   },
   "GuildLeaderInfo": {
-    "AccountAvatarId": "https://dl-dir.leakstudio.site/icons/901027035.png",
-    "AccountBPBadges": 91,
+    "AccountAvatarId": "https://dl-dir.leakstudio.site/icons/901045005.png",
+    "AccountBPBadges": 104,
     "AccountBPID": 1001000079,
-    "AccountBannerId": "https://dl-dir.leakstudio.site/icons/902027015.png",
-    "AccountCreateTime": "20/01/2019 (11:28:45 AM)",
-    "AccountEXP": 3939946,
-    "AccountId": "663660642",
-    "AccountLastLogin": "29/12/2024 (04:42:30 PM)",
-    "AccountLevel": 73,
-    "AccountLikes": 36129,
-    "AccountName": "LSㅤNAYEM",
-    "AccountRegion": "BD",
+    "AccountBannerId": "https://dl-dir.leakstudio.site/icons/902000154.png",
+    "AccountCreateTime": "06/12/2017 (09:19:29 PM)",
+    "AccountEXP": 1957062,
+    "AccountId": "12345678",
+    "AccountLastLogin": "30/12/2024 (02:57:37 PM)",
+    "AccountLevel": 66,
+    "AccountLikes": 3402716,
+    "AccountName": "FB:ㅤ@GMRemyX",
+    "AccountRegion": "SG",
     "AccountSeasonId": 42,
-    "BrMaxRank": 223,
-    "BrRankPoint": 5377,
-    "CsMaxRank": 207,
-    "CsRankPoint": 23,
+    "BrMaxRank": 212,
+    "BrRankPoint": 2323,
+    "CsMaxRank": 219,
+    "CsRankPoint": 88,
     "EquippedWeapon": [
-      "https://dl-dir.leakstudio.site/icons/907192407.png",
-      "https://dl-dir.leakstudio.site/icons/912000003.png",
-      "https://dl-dir.leakstudio.site/icons/914000002.png"
+      "https://dl-dir.leakstudio.site/icons/907103421.png",
+      "https://dl-dir.leakstudio.site/icons/912041002.png",
+      "https://dl-dir.leakstudio.site/icons/914047002.png"
     ],
     "ShowBrRank": true,
     "ShowCsRank": true,
-    "Title": 904190035
+    "Title": 904090023
   },
   "creditScoreInfo": {
     "CreditScore": 100
   },
   "petInfo": {
     "id": "https://dl-dir.leakstudio.site/icons/1300000071.png",
-    "isMarkedStar": true,
     "isSelected": true,
     "level": 7,
-    "name": "Sarawat",
-    "selectedSkillId": "https://dl-dir.leakstudio.site/icons/1315000006.png",
-    "skinId": "https://dl-dir.leakstudio.site/icons/1310000074.png",
-    "xp": 6005
+    "name": "SiNo",
+    "selectedSkillId": "https://dl-dir.leakstudio.site/icons/1315000009.png",
+    "skinId": "https://dl-dir.leakstudio.site/icons/1310000071.png",
+    "xp": 6000
   },
   "socialinfo": {
-    "AccountLanguage": "Language_3",
+    "AccountLanguage": "Language_English",
     "AccountPreferMode": "Prefermode_BR",
-    "AccountSignature": "GM - FreeFire Debug Server"
+    "AccountSignature": "FB & YT GM Remy | TikTok :gmremyx | IG GM Remy"
   }
 }
 ```
