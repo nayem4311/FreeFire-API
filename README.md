@@ -32,8 +32,6 @@ The goal of this free API is to enrich the Free Fire community by offering acces
 
 - This API response Does not Represent the Actual Structure Received from the Official Garena Server.
 - The Response structure is simplified in an User-Friendly Structure for the ease of understanding for Anyone at any level of Programming.
-- All images related to item IDs shown by the API response (e.g., avatars, banners, outfits, weapons) are available at `https://cdn.ohxia.xyz/item-icon?itemID={item_id}.png` for the convenience of API users in their development projects.
-
 
 ### 💬 Example of a Successful Reponse May Look Like this,
 ```json
