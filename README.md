@@ -11,7 +11,7 @@ This Endpoint Retrieves Account Information based on the Specified Region and Us
 
 ### 📨 Request Example
 ```http
-GET https://api-freefire.leakstudio.site/info?uid=663660642&region=bd&key=@leakstudio
+GET https://accinfo.leakstudio.site/info?uid=663660642&region=bd&key=@leakstudio
 ```
 
 ### ☑️ Query Parameters
@@ -137,7 +137,7 @@ The goal of this free API is to enrich the Free Fire community by offering acces
 
 
 # 🎫 Wishlist Items
-API Route = https://ffinfo.ohxia.xyz/api/wishlistitems/{region}/{playerid}?key={key}
+API Route = https://wishlist.leakstudio.site/api/wishlistitems/{region}/{playerid}?key={key}
 
 **Endpoint:** `api/wishlistitems`
 **key:** `@leakstudio`
@@ -153,7 +153,7 @@ API Route = https://ffinfo.ohxia.xyz/api/wishlistitems/{region}/{playerid}?key={
 
 ### 📨 Request Example
 ```http
-GET https://ffinfo.ohxia.xyz/api/wishlistitems/bd/12345678?key=@leakstudio
+GET  https://wishlist.leakstudio.site/wishlistitems/bd/12345678?key=@leakstudio
 ```
 ### 💬 Response Example
 ```json
@@ -193,7 +193,7 @@ GET https://ffinfo.ohxia.xyz/api/wishlistitems/bd/12345678?key=@leakstudio
 
 
 # 👨‍👨‍👦‍👦 Guild Information
-API Route = https://ffinfo.ohxia.xyz/api/guildinfo/{region}/{playerid}?key={key}
+API Route =  https://guild.leakstudio.site/api/guildinfo/{region}/{playerid}?key={key}
 
 **Endpoint:** `api/guildinfo`
 **key:** `@leakstudio`
@@ -210,7 +210,7 @@ API Route = https://ffinfo.ohxia.xyz/api/guildinfo/{region}/{playerid}?key={key}
 
 ### 📨 Request Example
 ```http
-GET https://ffinfo.ohxia.xyz/api/guildinfo/bd/3001867085?key=@leakstudio
+GET  https://guild.leakstudio.site/api/guildinfo/bd/3001867085?key=@leakstudio
 ```
 ### 💬 Response Example
 ```json
