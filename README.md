@@ -1,7 +1,7 @@
 # 📝 API Documentation
 
 ##  Account Information API
-API Route = https://api-freefire.leakstudio.site/info?uid={uid}&region={region}&key={key}
+API Route = https://accinfo.leakstudio.site/info?uid={uid}&region={region}&key={key}
 
 **Endpoint:** `/info`
 **key:** `@leakstudio`
