@@ -18,7 +18,7 @@ GET https://accinfo.leakstudio.site/info?uid=663660642&region=bd&key=@leakstudio
 
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`sg`, `bd`, `ind`, `br`,`id`, `tw`, `us`, `na`, `sac`, `th`, `vn`, `me`, `pk`, `cis` ).|
+| `region`  | string | Yes      | The region code (`sg`, `bd`, `ind`, `br`,`id`, `tw`, `us`, `na`, `sac`, `th`, `vn`, `me`, `pk`, `cis` , `eu`).|
 | `uid`     | int | Yes      | The user ID.                  |
 | `key`     | string | Yes      | Join https://t.me/leakstudio to get Latest Key.                  |
 
