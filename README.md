@@ -39,45 +39,33 @@ The goal of this free API is to enrich the Free Fire community by offering acces
 ```json
 {
   "AccountInfo": {
-    "AccountAvatarId": "https://dl-dir.leakstudio.site/icons/901045005.png",
-    "AccountBPBadges": 104,
-    "AccountBPID": 1001000079,
-    "AccountBannerId": "https://dl-dir.leakstudio.site/icons/902000154.png",
+    "AccountAvatarId": 902000154,
+    "AccountBPBadges": 34,
+    "AccountBPID": 1001000080,
+    "AccountBannerId": 901045005,
     "AccountCreateTime": "06/12/2017 (09:19:29 PM)",
-    "AccountEXP": 1957062,
+    "AccountEXP": 1963009,
     "AccountId": "12345678",
-    "AccountLastLogin": "30/12/2024 (02:57:37 PM)",
+    "AccountLastLogin": "11/01/2025 (07:17:35 AM)",
     "AccountLevel": 66,
-    "AccountLikes": 3402716,
+    "AccountLikes": 3403821,
     "AccountName": "FB:ㅤ@GMRemyX",
     "AccountRegion": "SG",
-    "AccountSeasonId": 42,
+    "AccountSeasonId": 43,
     "AccountType": 1,
-    "BrMaxRank": 212,
-    "BrRankPoint": 2323,
-    "CsMaxRank": 219,
-    "CsRankPoint": 88,
-    "EquippedWeapon": [
-      "https://dl-dir.leakstudio.site/icons/907103421.png",
-      "https://dl-dir.leakstudio.site/icons/912041002.png",
-      "https://dl-dir.leakstudio.site/icons/914047002.png"
-    ],
+    "BrMaxRank": 211,
+    "BrRankPoint": 2136,
+    "CsMaxRank": 220,
+    "CsRankPoint": 108,
+    "EquippedWeapon": [907103421, 912041002, 914047001],
     "ReleaseVersion": "OB47",
     "Role": 4,
     "ShowBrRank": true,
     "ShowCsRank": true,
-    "Title": 904090023,
-    "hasElitePass": true
+    "Title": 904090023
   },
   "AccountProfileInfo": {
-    "EquippedOutfit": [
-      "https://dl-dir.leakstudio.site/icons/205000059.png",
-      "https://dl-dir.leakstudio.site/icons/211047009.png",
-      "https://dl-dir.leakstudio.site/icons/211001242.png",
-      "https://dl-dir.leakstudio.site/icons/203047007.png",
-      "https://dl-dir.leakstudio.site/icons/204000884.png",
-      "https://dl-dir.leakstudio.site/icons/214047001.png"
-    ],
+    "EquippedOutfit": [211047026, 203047016, 204000884, 211001242, 214047001, 205047007],
     "EquippedSkills": [16, 706, 8, 1, 16, 3806, 8, 2, 16, 2506, 8, 3, 16, 1706]
   },
   "GuildInfo": {
@@ -89,28 +77,24 @@ The goal of this free API is to enrich the Free Fire community by offering acces
     "GuildOwner": 12345678
   },
   "GuildLeaderInfo": {
-    "AccountAvatarId": "https://dl-dir.leakstudio.site/icons/901045005.png",
-    "AccountBPBadges": 104,
-    "AccountBPID": 1001000079,
-    "AccountBannerId": "https://dl-dir.leakstudio.site/icons/902000154.png",
+    "AccountAvatarId": 902000154,
+    "AccountBPBadges": 34,
+    "AccountBPID": 1001000080,
+    "AccountBannerId": 901045005,
     "AccountCreateTime": "06/12/2017 (09:19:29 PM)",
-    "AccountEXP": 1957062,
+    "AccountEXP": 1963009,
     "AccountId": "12345678",
-    "AccountLastLogin": "30/12/2024 (02:57:37 PM)",
+    "AccountLastLogin": "11/01/2025 (07:17:35 AM)",
     "AccountLevel": 66,
-    "AccountLikes": 3402716,
+    "AccountLikes": 3403821,
     "AccountName": "FB:ㅤ@GMRemyX",
     "AccountRegion": "SG",
-    "AccountSeasonId": 42,
-    "BrMaxRank": 212,
-    "BrRankPoint": 2323,
-    "CsMaxRank": 219,
-    "CsRankPoint": 88,
-    "EquippedWeapon": [
-      "https://dl-dir.leakstudio.site/icons/907103421.png",
-      "https://dl-dir.leakstudio.site/icons/912041002.png",
-      "https://dl-dir.leakstudio.site/icons/914047002.png"
-    ],
+    "AccountSeasonId": 43,
+    "BrMaxRank": 211,
+    "BrRankPoint": 2136,
+    "CsMaxRank": 220,
+    "CsRankPoint": 108,
+    "EquippedWeapon": [907103421, 912041002, 914047001],
     "ShowBrRank": true,
     "ShowCsRank": true,
     "Title": 904090023
@@ -119,12 +103,12 @@ The goal of this free API is to enrich the Free Fire community by offering acces
     "CreditScore": 100
   },
   "petInfo": {
-    "id": "https://dl-dir.leakstudio.site/icons/1300000071.png",
+    "id": 1300000071,
     "isSelected": true,
     "level": 7,
     "name": "SiNo",
-    "selectedSkillId": "https://dl-dir.leakstudio.site/icons/1315000009.png",
-    "skinId": "https://dl-dir.leakstudio.site/icons/1310000071.png",
+    "selectedSkillId": 1315000009,
+    "skinId": 1310000071,
     "xp": 6000
   },
   "socialinfo": {
