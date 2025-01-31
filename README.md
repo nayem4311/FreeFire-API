@@ -11,7 +11,7 @@ This Endpoint Retrieves Account Information based on the Specified Region and Us
 
 ### 📨 Request Example
 ```http
-GET https://accinfo.leakstudio.site/info?uid=663660642&region=bd&key=@leakstudio
+GET https://accinfo.leakstudio.site/info?uid=12345678&region=bd&key=@leakstudio
 ```
 
 ### ☑️ Query Parameters
