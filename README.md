@@ -18,7 +18,7 @@ GET https://accinfo.leakstudio.site/info?uid=663660642&region=bd&key=@leakstudio
 
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`sg`, `bd`, `ind`, `br`,`id`, `tw`, `us`, `na`, `sac`, `th`, `vn`, `me`, `pk`, `cis` , `eu`).|
+| `region`  | string | Yes      | The region code (`sg`, `bd`, `ind`, `br`,`id`, `tw`, `us`, `na`, `sac`, `th`, `vn`, `me`, `pk`, `cis`, `eu`).|
 | `uid`     | int | Yes      | The user ID.                  |
 | `key`     | string | Yes      | Join https://t.me/leakstudio to get Latest Key.                  |
 
@@ -128,7 +128,7 @@ The goal of this free API is to enrich the Free Fire community by offering acces
 
 
 # 🎫 Wishlist Items
-API Route = https://wishlist.leakstudio.site/api/wishlistitems/{region}/{playerid}?key={key}
+API Route = https://static-devapi.leakstudio.site/wishlist/{region}/{uid}&key={key}
 
 **Endpoint:** `api/wishlistitems`
 **key:** `@leakstudio`
@@ -138,13 +138,13 @@ API Route = https://wishlist.leakstudio.site/api/wishlistitems/{region}/{playeri
 
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`sg`, `bd`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`).|
+| `region`  | string | Yes      | The region code (`sg`, `bd`, `ind`, `br`,`id`, `tw`, `us`, `na`, `sac`, `th`, `vn`, `me`, `pk`, `cis`, `eu`).|
 | `uid`     | int | Yes      | The user ID.                  |
 | `key`     | string | Yes      | Join https://t.me/leakstudio to get Latest Key.                  |
 
 ### 📨 Request Example
 ```http
-GET  https://wishlist.leakstudio.site/wishlistitems/bd/12345678?key=@leakstudio
+GET  https://static-devapi.leakstudio.site/wishlist/bd/663660642&key=@leakstudio
 ```
 ### 💬 Response Example
 ```json
@@ -184,7 +184,7 @@ GET  https://wishlist.leakstudio.site/wishlistitems/bd/12345678?key=@leakstudio
 
 
 # 👨‍👨‍👦‍👦 Guild Information
-API Route =  https://guild.leakstudio.site/api/guildinfo/{region}/{playerid}?key={key}
+API Route =  https://static-devapi.leakstudio.site/guild/{region}/{guild_id}&key={key}
 
 **Endpoint:** `api/guildinfo`
 **key:** `@leakstudio`
@@ -195,13 +195,13 @@ API Route =  https://guild.leakstudio.site/api/guildinfo/{region}/{playerid}?key
 
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`sg`, `bd`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`).|
-| `uid`     | int | Yes      | The user ID.                  |
+| `region`  | string | Yes      | The region code (`sg`, `bd`, `ind`, `br`,`id`, `tw`, `us`, `na`, `sac`, `th`, `vn`, `me`, `pk`, `cis`, `eu`).|
+| `guild_id`     | int | Yes      | The user ID.                  |
 | `key`     | string | Yes      | Join https://t.me/leakstudio to get Latest Key.                  |
 
 ### 📨 Request Example
 ```http
-GET  https://guild.leakstudio.site/api/guildinfo/bd/3001867085?key=@leakstudio
+GET  https://static-devapi.leakstudio.site/guild/bd/3001867085&key=@leakstudio
 ```
 ### 💬 Response Example
 ```json
