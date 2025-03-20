@@ -1,7 +1,7 @@
 # 📝 API Documentation
 
 ##  Account Information API
-API Route = https://accinfo.leakstudio.site/info?uid={uid}&region={region}&key={key}
+API Route = https://url/info?uid={uid}&region={region}&key={key}
 
 **Endpoint:** `/info`
 **key:** `@leakstudio`
@@ -11,7 +11,7 @@ This Endpoint Retrieves Account Information based on the Specified Region and Us
 
 ### 📨 Request Example
 ```http
-GET https://accinfo.leakstudio.site/info?uid=12345678&region=bd&key=@leakstudio
+GET https://url/info?uid=12345678&region=bd&key=@leakstudio
 ```
 
 ### ☑️ Query Parameters
@@ -128,7 +128,7 @@ The goal of this free API is to enrich the Free Fire community by offering acces
 
 
 # 🎫 Wishlist Items
-API Route = https://static-devapi.leakstudio.site/wishlist/{region}/{uid}&key={key}
+API Route = https://url/wishlist/{region}/{uid}&key={key}
 
 **Endpoint:** `api/wishlistitems`
 **key:** `@leakstudio`
@@ -144,7 +144,7 @@ API Route = https://static-devapi.leakstudio.site/wishlist/{region}/{uid}&key={k
 
 ### 📨 Request Example
 ```http
-GET  https://static-devapi.leakstudio.site/wishlist/bd/663660642&key=@leakstudio
+GET  https://url/wishlist/bd/663660642&key=@leakstudio
 ```
 ### 💬 Response Example
 ```json
@@ -184,7 +184,7 @@ GET  https://static-devapi.leakstudio.site/wishlist/bd/663660642&key=@leakstudio
 
 
 # 👨‍👨‍👦‍👦 Guild Information
-API Route =  https://static-devapi.leakstudio.site/guild/{region}/{guild_id}&key={key}
+API Route =  https://url/guild/{region}/{guild_id}&key={key}
 
 **Endpoint:** `api/guildinfo`
 **key:** `@leakstudio`
@@ -201,7 +201,7 @@ API Route =  https://static-devapi.leakstudio.site/guild/{region}/{guild_id}&key
 
 ### 📨 Request Example
 ```http
-GET  https://static-devapi.leakstudio.site/guild/bd/3001867085&key=@leakstudio
+GET  https://url/guild/bd/3001867085&key=@leakstudio
 ```
 ### 💬 Response Example
 ```json
