@@ -2,6 +2,7 @@
 
 ##  Account Information API
 API Route = https://url/info?uid={uid}&region={region}&key={key}
+**Web:** `https://www.leakstudio.site`
 
 **Endpoint:** `/info`
 **key:** `@freefirelikeinfo`
