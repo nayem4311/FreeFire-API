@@ -37,91 +37,98 @@ The goal of this free API is to enrich the Free Fire community by offering acces
 ```json
 {
   "AccountInfo": {
-    "AccountAvatarId": 901045005,
-    "AccountBPBadges": 122,
-    "AccountBPID": 1001000080,
-    "AccountBannerId": 902000154,
-    "AccountCreateTime": "06/12/2017 (09:19:29 PM)",
-    "AccountEXP": 1985024,
-    "AccountId": "12345678",
-    "AccountLastLogin": "28/01/2025 (03:58:39 PM)",
-    "AccountLevel": 66,
-    "AccountLikes": 3405644,
-    "AccountName": "FB:ㅤ@GMRemyX",
-    "AccountPinID": "910039001",
-    "AccountRegion": "SG",
-    "AccountSeasonId": 43,
+    "AccountAvatarId": 902000291,
+    "AccountBPBadges": 8,
+    "AccountBPID": 1001000089,
+    "AccountBannerId": 901000261,
+    "AccountCreateTime": "20/01/2019 (05:28:45 PM)",
+    "AccountEXP": 4166666,
+    "AccountId": "663660642",
+    "AccountLastLogin": "15/10/2025 (07:26:13 AM)",
+    "AccountLevel": 74,
+    "AccountLikes": 62851,
+    "AccountName": "LSㅤRAMIL",
+    "AccountPinID": "910000013",
+    "AccountRegion": "BD",
+    "AccountSeasonId": 47,
     "AccountType": 1,
-    "BrMaxRank": 218,
-    "BrRankPoint": 3094,
-    "CsMaxRank": 221,
-    "CsRankPoint": 146,
-    "EquippedWeapon": [907103421, 912047002, 914047001],
-    "ReleaseVersion": "OB47",
-    "Role": 4,
+    "BrMaxRank": 320,
+    "BrRankPoint": 3430,
+    "CsMaxRank": 313,
+    "CsRankPoint": 48,
+    "EquippedWeapon": [907105025, 912034001, 914000002],
+    "ReleaseVersion": "OB50",
     "ShowBrRank": true,
     "ShowCsRank": true,
-    "Title": "Evo King",
-    "hasElitePass": true
+    "Title": "6 Years Old",
+    "primeInfo": {
+      "primeLevel": 8,
+      "uid": "663660642"
+    }
   },
   "AccountProfileInfo": {
-    "EquippedOutfit": [204000884, 211000631, 214039014, 205046033, 211040042, 203046061],
+    "CharacterID": 102000007,
+    "EquippedOutfit": [211033021, 204050001, 203000182, 214034012, 205034044],
     "EquippedSkills": [
-      "Maxim",
-      "Chrono",
-      "Kelly",
-      "Laura"
+      "Rafael",
+      "Jota",
+      "Misha",
+      "K"
     ]
   },
   "GuildInfo": {
     "GuildCapacity": 55,
-    "GuildID": "60893361",
+    "GuildID": "3001867085",
     "GuildLevel": 7,
-    "GuildMember": 55,
-    "GuildName": "MᴜᴍᴍʏEᴠᴀTᴇᴀᴍ",
-    "GuildOwner": 12345678
+    "GuildMember": 38,
+    "GuildName": "LEAKㅤSTUDIO",
+    "GuildOwner": 663660642
   },
   "GuildLeaderInfo": {
-    "AccountAvatarId": 901045005,
-    "AccountBPBadges": 122,
-    "AccountBPID": 1001000080,
-    "AccountBannerId": 902000154,
-    "AccountCreateTime": "06/12/2017 (09:19:29 PM)",
-    "AccountEXP": 1985024,
-    "AccountId": "12345678",
-    "AccountLastLogin": "28/01/2025 (03:58:39 PM)",
-    "AccountLevel": 66,
-    "AccountLikes": 3405644,
-    "AccountName": "FB:ㅤ@GMRemyX",
-    "AccountPinID": "910039001",
-    "AccountRegion": "SG",
-    "AccountSeasonId": 43,
-    "BrMaxRank": 218,
-    "BrRankPoint": 3094,
-    "CsMaxRank": 221,
-    "CsRankPoint": 146,
-    "EquippedWeapon": [907103421, 912047002, 914047001],
+    "AccountAvatarId": 902000291,
+    "AccountBPBadges": 8,
+    "AccountBPID": 1001000089,
+    "AccountBannerId": 901000261,
+    "AccountCreateTime": "20/01/2019 (05:28:45 PM)",
+    "AccountEXP": 4166666,
+    "AccountId": "663660642",
+    "AccountLastLogin": "15/10/2025 (07:26:13 AM)",
+    "AccountLevel": 74,
+    "AccountLikes": 62851,
+    "AccountName": "LSㅤRAMIL",
+    "AccountPinID": "910000013",
+    "AccountRegion": "BD",
+    "AccountSeasonId": 47,
+    "BrMaxRank": 320,
+    "BrRankPoint": 3430,
+    "CsMaxRank": 313,
+    "CsRankPoint": 48,
+    "EquippedWeapon": [907105025, 912034001, 914000002],
     "ShowBrRank": true,
     "ShowCsRank": true,
-    "Title": "Evo King"
+    "Title": "6 Years Old"
   },
+  "api_usage": "6/300",
   "creditScoreInfo": {
-    "CreditScore": 100
+    "CreditScore": 100,
+    "periodicSummaryEndTime": "18/10/2025 (07:26:15 AM)",
+    "periodicSummaryStartTime": "15/10/2025 (07:26:15 AM)"
   },
   "petInfo": {
     "id": 1300000071,
+    "isMarkedStar": true,
     "isSelected": true,
     "level": 7,
-    "name": "SiNo",
+    "name": "Sarawat",
     "original_name": "Poring",
-    "selectedSkillId": 1315000009,
-    "skinId": 1310000071,
-    "xp": 6000
+    "selectedSkillId": 1315000006,
+    "skinId": 1310000074,
+    "xp": 6005
   },
   "socialinfo": {
-    "AccountLanguage": "Language_English",
+    "AccountLanguage": "Language_3",
     "AccountPreferMode": "Prefermode_BR",
-    "AccountSignature": "FB & YT GM Remy | TikTok :gmremyx | IG GM Remy"
+    "AccountSignature": "Game Master - FreeFire TW-CN Region"
   }
 }
 ```
