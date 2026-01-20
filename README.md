@@ -6,14 +6,14 @@ API Route = https://url/info?uid={uid}&region={region}&key={key}
 **Get Access:** https://leakstudiobd.com
 
 **Endpoint:** `/info`
-**key:** `@freefirelikeinfo`
+**key:** `@leakstudiobd`
 **Method:** `GET`  
 
 This Endpoint Retrieves Account Information based on the Specified Region and User ID.
 
 ### 📨 Request Example
 ```http
-GET https://url/info?uid=12345678&region=bd&key=@freefirelikeinfo
+GET https://url/info?uid=12345678&region=bd&key=@leakstudiobd
 ```
 
 ### ☑️ Query Parameters
@@ -22,7 +22,7 @@ GET https://url/info?uid=12345678&region=bd&key=@freefirelikeinfo
 |-----------|--------|----------|-------------------------------|
 | `region`  | string | Yes      | The region code (`sg`, `bd`, `ind`, `br`,`id`, `tw`, `us`, `na`, `sac`, `th`, `vn`, `me`, `pk`, `cis`, `eu`).|
 | `uid`     | int | Yes      | The user ID.                  |
-| `key`     | string | Yes      | Join https://t.me/freefirelikeinfo to get Latest Key.                  |
+| `key`     | string | Yes      | Join https://t.me/leakstudiobd to get Latest Key.                  |
 
 
 📚 **API Purpose**
@@ -149,11 +149,11 @@ API Route = https://url/wishlist/{region}/{uid}&key={key}
 |-----------|--------|----------|-------------------------------|
 | `region`  | string | Yes      | The region code (`sg`, `bd`, `ind`, `br`,`id`, `tw`, `us`, `na`, `sac`, `th`, `vn`, `me`, `pk`, `cis`, `eu`).|
 | `uid`     | int | Yes      | The user ID.                  |
-| `key`     | string | Yes      | Join https://t.me/freefirelikeinfo to get Latest Key.                  |
+| `key`     | string | Yes      | Join https://t.me/leakstudiobd to get Latest Key.                  |
 
 ### 📨 Request Example
 ```http
-GET  https://url/wishlist/bd/663660642&key=@freefirelikeinfo
+GET  https://url/wishlist/bd/663660642&key=@leakstudiobd
 ```
 ### 💬 Response Example
 ```json
@@ -196,7 +196,7 @@ GET  https://url/wishlist/bd/663660642&key=@freefirelikeinfo
 API Route =  https://url/guild/{region}/{guild_id}&key={key}
 
 **Endpoint:** `api/guildinfo`
-**key:** `@freefirelikeinfo`
+**key:** `@leakstudiobd`
 **Method:** `GET`  
 **Description:** Retrieve detailed information about FreeFire guilds by querying this API with the guild's region and ID. Receive data such as guild name, creation date, level, member count, and more in JSON format.
 
@@ -206,11 +206,11 @@ API Route =  https://url/guild/{region}/{guild_id}&key={key}
 |-----------|--------|----------|-------------------------------|
 | `region`  | string | Yes      | The region code (`sg`, `bd`, `ind`, `br`,`id`, `tw`, `us`, `na`, `sac`, `th`, `vn`, `me`, `pk`, `cis`, `eu`).|
 | `guild_id`     | int | Yes      | The user ID.                  |
-| `key`     | string | Yes      | Join https://t.me/freefirelikeinfo to get Latest Key.                  |
+| `key`     | string | Yes      | Join https://t.me/leakstudiobd to get Latest Key.                  |
 
 ### 📨 Request Example
 ```http
-GET  https://url/guild/bd/3001867085&key=@freefirelikeinfo
+GET  https://url/guild/bd/3001867085&key=@leakstudiobd
 ```
 ### 💬 Response Example
 ```json
